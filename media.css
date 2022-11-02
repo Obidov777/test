@@ -1,0 +1,332 @@
+@media(max-width:1145px){
+    .header_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .header_nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .header_logo {
+        margin-left: 25px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media(max-width: 1105px){
+    .header_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .header_nav {
+       width: 800px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .header_logo {
+        margin-left: 25px;
+    }
+    .main_content {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_right {
+        width: 540px;
+        margin-top: 30px;
+    }    
+    .footer_content {
+        width: 800px;
+    }
+    .footer_texts {
+        margin-left: 30px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media(max-width:655px) {
+    .header_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .header_nav {
+       width: 655px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .header_logo {
+        margin-left: 25px;
+    }
+    .main_content {
+        width: 655px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_right {
+        width: 255px;
+        margin-top: 30px;
+    }    
+    .footer_content {
+        width: 655px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_texts {
+        margin-left: 30px;
+    }
+    div.main_left {
+        width: 400px;
+    }
+    img.main_left_photo {
+        width: 100%;
+    }
+    p.main_left_desc {
+        width: 100%;
+    }
+    h2.main_left_title {
+        width: 100%;
+    }
+    .container {
+        width: 650px;
+    }
+    input.footer_input {
+        width: 100%;
+    }
+    div.footer_intro {
+        width: 610px;
+        align-items: center;
+        margin-right: auto;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media(max-width:600px) {
+    .header_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .header_nav {
+       width: 600px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .header_logo {
+        margin-left: 25px;
+    }
+    .main_content {
+        width: 600px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .main_right {
+        width: 255px;
+        margin-top: 30px;
+    }    
+    .footer_content {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_texts {
+        margin-left: 30px;
+    }
+    div.main_left {
+        width: 400px;
+    }
+    img.main_left_photo {
+        width: 100%;
+    }
+    p.main_left_desc {
+        width: 100%;
+    }
+    h2.main_left_title {
+        width: 100%;
+    }
+    .container {
+        width: 650px;
+    }
+    input.footer_input {
+        width: 500px;
+        margin-right: 30px;
+    }
+    div.footer_intro {
+        width: 600px;
+        align-items: center;
+        margin-right: auto;
+    }
+    textarea.footer_textarea {
+        width: 500px;
+        margin-right: 30px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media (max-width:570px){
+    .header_list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .header_nav {
+       width: 570px;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .header_logo {
+        margin-left: 25px;
+    }
+    .main_content {
+        width: 570px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .main_right {
+        width: 255px;
+        margin-top: 30px;
+    }    
+    .footer_content {
+        width: 570px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_texts {
+        margin-left: 30px;
+    }
+    div.main_left {
+        width: 400px;
+    }
+    img.main_left_photo {
+        width: 100%;
+    }
+    p.main_left_desc {
+        width: 100%;
+    }
+    h2.main_left_title {
+        width: 100%;
+    }
+    .container {
+        width: 570px;
+    }
+    input.footer_input {
+        width: 470px;
+        margin-right: 30px;
+    }
+    div.footer_intro {
+        width: 570px;
+        align-items: center;
+        margin-right: auto;
+    }
+    textarea.footer_textarea {
+        width: 470px;
+        margin-right: 30px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media (max-width:550px){
+    div.main_left {
+        width: 400px;
+    }
+    input.footer_input {
+        width: 400px;
+        margin-right: 30px;
+    }
+    div.footer_intro {
+        width: 550px;
+        align-items: center;
+        margin-right: auto;
+    }
+    textarea.footer_textarea {
+        width: 400px;
+        margin-right: 30px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media (max-width:530px){
+    div.main_left {
+        width: 400px;
+    }
+    input.footer_input {
+        width: 400px;
+        margin-right: 30px;
+    }
+    div.footer_intro {
+        width: 450px;
+        align-items: center;
+        margin-right: 30px;
+    }
+    textarea.footer_textarea {
+        width: 400px;
+        margin-right: 30px;
+    }
+    .main_content {
+        width: 520px;
+        height: 1500px;
+    }
+    .header_nav {
+        width: 500px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+@media (max-width:460px) {
+    div.main_left {
+        width: 320px;
+    }
+    input.footer_input {
+        width: 100%;
+        margin-right: 30px;
+    }
+    div.footer_intro {
+        width: 320px;
+        align-items: center;
+        margin-right: 30px;
+    }
+    textarea.footer_textarea {
+        width: 100%;
+        margin-right: 30px;
+    }
+    .main_content {
+        width: 320px;
+        height: 1500px;
+    }
+    .header_nav {
+        width: 320px;
+    }
+    button.footer_button {
+        width: 100%;
+        margin-right: 30px;
+    }  
+    div.container {
+        width: 100%;
+    } 
+}

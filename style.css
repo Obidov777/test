@@ -1,0 +1,148 @@
+body {
+    background-color: #EBEBEB;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+.header_logo {
+    display: block;
+}
+.header_list {
+    display: flex;
+}
+.header_link {
+    margin-left: 20px;
+    color: white;
+    padding: 23px 14px;
+}
+.header_link:hover {
+    background:#FFFFFF;
+    color: #D47300;
+    transition: 800ms;
+}
+.intro {
+    background: url(./images/Nike-Adapt-BB\ 1.jpg) no-repeat center /cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.header {
+    background-color: #322E41;
+}
+.main_left {
+    width: 540px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 15px;
+}
+.main_left_desc {
+    width: 510px;
+}
+.main_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 463px;
+}
+.main_right_mini_cards {
+    background: #FFFFFF;
+    width: 255px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.main {
+    margin-top: -40px;
+}
+.main_content {
+    display: flex;
+}
+.footer_input {
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+}
+.footer_textarea {
+    width: 350px;
+    height: 86px;
+    border-radius: 6px;
+}
+.footer_button {
+    width: 350px;
+    height: 25px;
+    background-color: #544294;
+    border-radius: 6px;
+}
+.footer_link {
+    color: #FFFFFF;
+}
+.footer_intro {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 30px;
+    width: 350px;
+}
+.footer {
+    background-color: #322E41;
+    margin-top: 30px;
+}
+.footer_input, .footer_textarea {
+    margin-bottom: 10px;
+}
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.footer_textt {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.footer_texts {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 160px;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_linkk {
+    color: #FFFFFF;
+}
+.footer_linkk:hover {
+    color: #D47300;
+}
+
+.footer_textarea {
+    resize: none;
+    padding: 0 5px;
+}
+.footer_input {
+    padding: 0 5px;
+}
